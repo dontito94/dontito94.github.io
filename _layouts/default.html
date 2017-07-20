@@ -16,7 +16,17 @@
   </head>
 
   <body>
-     <nav class="collapse navbar-collapse" role="navigation">
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+           <nav class="collapse navbar-collapse" role="navigation">
 
                 <div class="col-md-9">
                     <ul class="nav nav-pills">
@@ -98,23 +108,6 @@
         </div>
 
         </nav>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-                        <a href="{{ site.baseurl }}/">home</a>
-            <a href="{{ site.baseurl }}/">post</a>
-
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
         </header>
       </div>
     </div>
