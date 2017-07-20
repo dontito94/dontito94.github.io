@@ -2,6 +2,7 @@
 published: false
 ---
 ## A New Post
+
 ![]({{site.baseurl}}/_posts/test.png)
 
 Here is the sample of logo created by me
